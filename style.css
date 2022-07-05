@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.head-part1 {
+  display: flex;
+}
+.half-width-desc {
+  width: 50%;
+  margin-left: 150px;
+  padding-top: 200px;
+}
+
+.half-width-desc h1 {
+  font-size: 60px;
+  /* width: 1000px; */
+}
+
+.head-food {
+  color: orange;
+}
+
+.head-p {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(241, 11, 11));
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.gym-image {
+  padding-top: 70px;
+  width: 600px;
+  height: 600px;
+  padding-left: 50px;
+  margin-left: -170px;
+}
+
+.second-desc {
+  display: flex;
+  background-image: url(eat-healthy-main/images/shapes/7.png);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.second-image {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.second-item {
+  width: 50%;
+  margin-top: 100px;
+}
+
+.second-item h1 {
+  font-size: 35px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.second-item p {
+  opacity: 0.7;
+  margin-bottom: 80px;
+}
+
+.recipe {
+  margin-bottom: 150px;
+}
+
+.recipe-head {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.recipe-head h1 {
+  font-size: 40px;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.recipe-head p {
+  margin-bottom: 25px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 550px;
+  height: 260px;
+}
+.card-item1 {
+  width: 550px;
+  box-shadow: 10px 10px 50px gray;
+  padding: 30px;
+  margin-right: 17px;
+  border-radius: 15px;
+}
+.card-item2 {
+  width: 550px;
+  box-shadow: 10px 10px 50px gray;
+  padding: 30px;
+  margin-left: 17px;
+  border-radius: 15px;
+}
+
+.card-item2:hover {
+  box-shadow: 10px 10px 50px rgb(169, 6, 6);
+}
+
+.card-item1:hover {
+  box-shadow: 10px 10px 50px rgb(14, 255, 2);
+}
+
+.card-item1 h3 {
+  margin: 25px 0;
+}
+
+.card-item2 h3 {
+  margin: 25px 0;
+}
+
+.card-item1 p {
+  opacity: 0.8;
+}
+
+.card-item2 p {
+  opacity: 0.8;
+}
+
+.social-media {
+  display: flex;
+  width: 1100px;
+  height: 200px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 60px grey;
+  border-radius: 15px;
+  margin-bottom: 120px;
+}
+
+.social-platform h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.social-platform {
+  margin-left: 175px;
+  margin-top: 60px;
+}
+
+footer {
+  background-color: rgb(5, 5, 42);
+  color: white;
+  height: 240px;
+  text-align: center;
+}
+
+footer span {
+  color: orange;
+}
+
+footer h1 {
+  padding-top: 30px;
+  margin-bottom: 55px;
+  color: rgb(134, 128, 140);
+}
+
+footer p {
+  opacity: 0.7;
+}
